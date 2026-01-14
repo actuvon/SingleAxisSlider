@@ -1,11 +1,11 @@
 # Parts
 
-This is a list of all the parts in the system, with brief descriptions. 
-To see a **picture/diagram** of the part, check the Diagrams column to see what Diagram(s) it's shown in, then check the related diagram(s) in the **Diagrams folder "D - Diagrams".**
-Details on each part including dimensions, specifications, pinouts, thoughts/plans/problems/rationalle, etc... are given in the **Parts folder "A - Parts".**
-CAD drawings and STL files for 3D Printed parts, or other parts that got modeled for fit are in the **CAD folder "B - CAD".**
-**Purchase links** are provided where possible.
-References to purchase orders (POs), and the PO status are made. These are filled in with MY purchase orders and status; you may wish to clear these columns out and use them for your own build.
+This is a list of all the parts in the system, with brief descriptions.  
+To see a **picture/diagram** of the part, check the Diagrams column to see what Diagram(s) it's shown in, then check the related diagram(s) in the **Diagrams folder "D - Diagrams".**  
+Details on each part including dimensions, specifications, pinouts, thoughts/plans/problems/rationalle, etc... are given in the **Parts folder "A - Parts".**  
+CAD drawings and STL files for 3D Printed parts, or other parts that got modeled for fit are in the **CAD folder "B - CAD".**  
+**Purchase links** are provided where possible.  
+References to purchase orders (POs), and the PO status are made. These are filled in with MY purchase orders and status; you may wish to clear these columns out and use them for your own build.  
 References to Task numbers are made. In the future I want to itemize the tasks needed to perform a build, and create notes/instructions relating to each task.
 
 **Parts in Release #1**
