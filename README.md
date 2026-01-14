@@ -2,7 +2,7 @@
 
 A simple single-axis CNC motion system for learning about the process of building a custom CNC machine. 
 
-[![Mechanical System Diagram D1](E - Images/IMG2 - Mechanical Assembly Annotated.png)](E - Images/IMG2 - Mechanical Assembly Annotated.png)
+[![Mechanical System Diagram D1](E%20-%20Images/IMG2%20-%20Mechanical%20Assembly%20Annotated.png)](E%20-%20Images/IMG2%20-%20Mechanical%20Assembly%20Annotated.png)
 
 ## Project objectives (checked when achieved)
 - [x] The purpose of this project is to build a cheap motorized linear axis, and to play with different mechanical, electrical, and control options.
