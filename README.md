@@ -2,6 +2,8 @@
 
 A simple single-axis CNC motion system for learning about the process of building a custom CNC machine. 
 
+[![Mechanical System Diagram D1](E - Images/IMG2 - Mechanical Assembly Annotated.png)](E - Images/IMG2 - Mechanical Assembly Annotated.png)
+
 ## Project objectives (checked when achieved)
 - [x] The purpose of this project is to build a cheap motorized linear axis, and to play with different mechanical, electrical, and control options.
 - [x] The system should consist of a stepper motor that moves a carriage back and forth along a single axis.
@@ -23,12 +25,15 @@ A simple single-axis CNC motion system for learning about the process of buildin
 ## Files in this repository
 Files in this repository are numbered, so that they can be referenced by their document number. Folders in this repository are given letters. Document number 1 in folder C is called document C.1. 
 Some folders use part numbers instead of the conventional folder letters. The Part files in folder A and the CAD files in folder B are both examples of this. The CAD folder breaks down it's documents in a slightly different way to keep a clearer revision history.
-* **1 - Assembly Definition Document**: This document has the list of parts, and the list of purchase orders and work items that need to be done to build the project.
-* **2 - Diagrams**: This is a draw.io file that contains all the diagrams made for this project. Individual diagrams get numbered and exported to folder D in PDF format. Diagrams all get a 'D' number. As of now the only diagram is D1: Main System Diagram.
+* **1 - Assembly Definition Document**: This document has the list of parts, and the list of purchase orders and work items that need to be done to build the project. I am working on replacing this Document with MD files such as 3 - Parts.md.
+* **3 - Parts.md**: Lists the ID of all parts with a short description and a reference to diagrams that show this part. Includes purchase links and other important details for each part.
+* **4 - Ports.md**: TODO: A "Port" is a feature on a part that can be connected to something. It can be a pin/wiring terminal, or it can be a mechanical feature that mates to another mechanical feature on another part. This file details all the ports for each part, which is required to understand document "5 - Connections.md". You often need to look in folder "A - Parts" for a part's "Port Diagram", which shows the name of each port when none is written directly on the part.
+* **5 - Connections.md**: TODO: Lists all of the connections between the 'Ports' on various parts. These connections may be made with wires, pipes, fasteners, or others. Notes are given about each connection.
+* **6 - TODO.md**: A TODO list to help remind me of the endless pile of tasks yet-to-be-done.
 * **Folder A - Parts**: This folder contains detailed information and documents relating to each part. The sub-folders in here are named after the part numbers outlined in document 1 (the assembly definition document). CAD files are not kept in here.
 * **Folder B - CAD**: This folder contains all the CAD files, including STL and MDF files used for 3D printing. This is kept seperate from the parts folder to help streamline the CAD modeling workflow. Unfortunately that will make it a bit more of a pain to browse the repository when browsing through parts; you may need to keep one window open for folder A, and another window open for folder B.  Similarly to folder A, all the sub-folders are named after the related part number defined in document 1. I try to keep the STL file for every version of the part that I ever printed, so you can see the progression of changes as I try things and adjust.
 * **Folder C - Videos**: As I make YouTube videos to demonstrate different aspects or snapshots of the project, I'll list them here with links and a brief description.
-* **Folder D - Diagram PDFs**: All diagrams from document 2 will get exported into here in PDF format. Each diagram will be identified with its diagram number.
+* **Folder D - Diagrams**: All diagrams from document 2 will get exported into here in PDF format. Each diagram will be identified with its diagram number.
 
 ## Code
 The code that runs on the Arduino Due is kept in the Due's part folder, under **folder A.P5-1.A**. BUT I'll probably move the code over to an entirely different GitHub repo at some point. I'll keep a copy of it here as well though.
